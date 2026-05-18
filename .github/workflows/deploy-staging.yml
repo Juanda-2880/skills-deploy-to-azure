@@ -3,7 +3,7 @@ name: Deploy to staging
 on:
   pull_request:
     types: [labeled]
-
+# Comment for the PR
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
